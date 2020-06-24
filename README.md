@@ -1,2 +1,3 @@
-# Dotfiles
-Some of my unix configurations
+## dotfiles
+
+My unix configuration files
