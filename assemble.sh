@@ -12,3 +12,4 @@ cp -r ~/.config/polybar ./config/polybar
 cp -r ~/.config/kitty   ./config/kitty
 cp -r ~/.config/picom   ./config/picom
 cp -r ~/.config/zathura ./config/zathura
+cp -r ~/.config/rofi    ./config/rofi
