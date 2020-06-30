@@ -32,10 +32,10 @@ exec --no-startup-id nm-applet
 exec --no-startup-id setxkbmap "br"
 
 # Wallpaper
-exec_always --no-startup-id feh --bg-scale ~/Imagens/wallpapers/forest2.jpg
+exec_always --no-startup-id feh --bg-center ~/Imagens/wallpapers/wallhaven-13y189.jpg
 
 # Picom
-exec --no-startup-id picom --vsync --backend glx --glx-no-stencil -b
+exec --no-startup-id picom -b
 
 # Polybar
 #exec --no-startup-id polybar main
@@ -46,8 +46,8 @@ for_window [title="Microsoft Teams Notification"] floating enable
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +1% && $refresh_i3status
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -1% && $refresh_i3status
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
