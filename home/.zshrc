@@ -5,7 +5,7 @@ unsetopt beep
 bindkey -e
 zstyle :compinstall filename '/home/gabriel/.zshrc'
 
-PROMPT="\$%1~ "
+PROMPT="\$%1~ ~> "
 
 autoload -Uz compinit
 compinit
