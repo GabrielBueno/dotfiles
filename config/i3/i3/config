@@ -32,7 +32,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id setxkbmap "br"
 
 # Wallpaper
-exec_always --no-startup-id feh --bg-center ~/Imagens/wallpapers/wallhaven-13y189.jpg
+exec_always --no-startup-id feh --bg-center ~/Imagens/wallpapers/wallhaven-j5ekmp.jpg
 
 # Picom
 exec --no-startup-id picom -b

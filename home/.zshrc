@@ -5,12 +5,14 @@ unsetopt beep
 bindkey -e
 zstyle :compinstall filename '/home/gabriel/.zshrc'
 
+PROMPT="\$%1~ "
+
 autoload -Uz compinit
 compinit
 
-autoload -Uz promptinit
-promptinit
-prompt redhat
+#autoload -Uz promptinit
+#promptinit
+#prompt redhat
 
 autoload zkbd
 [[ ! -f ~/.zkbd/$TERM-${${DISPLAY:t}:-$VENDOR-$OSTYPE} ]] && zkbd
