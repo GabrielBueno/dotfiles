@@ -1,10 +1,11 @@
 ### Script para copiar todos os de configuração para este diretório
 
 # $HOME
-cp ~/.bashrc ./home/.bashrc
-cp ~/.zshrc  ./home/.zshrc
-cp ~/.zshenv ./home/.zshenv
-cp ~/.vimrc  ./home/.vimrc
+cp ~/.Xresources ./home/.Xresources
+cp ~/.bashrc     ./home/.bashrc
+cp ~/.zshrc      ./home/.zshrc
+cp ~/.zshenv     ./home/.zshenv
+cp ~/.vimrc      ./home/.vimrc
 
 # .config
 cp -r ~/.config/i3      ./config/i3
