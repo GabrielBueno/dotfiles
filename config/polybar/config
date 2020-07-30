@@ -18,8 +18,7 @@ alert  = ${colours.blood_red}
 width  = 100%
 height = 30
 
-font-0 = castella:style=Regular:size=8;1
-font-1 = Cozette:style=Medium:size=8;1
+font-0 = Cozette:style=Medium:size=8;1
 
 locale = pt_BR.UTF-8
 
@@ -28,7 +27,7 @@ foreground = ${colours.foreground}
 
 line-size     = 2
 padding       = 3
-module-margin = 3
+module-margin = 1
 
 border-top-size    = 0
 border-bottom-size = 0
@@ -38,7 +37,7 @@ border-color       = #00ffffff
 
 modules-left   = i3
 modules-center = date
-modules-right  = audio power-menu
+modules-right  = audio network
 
 [module/i3]
 type = internal/i3
@@ -137,7 +136,19 @@ menu-0-1-underline  = ${colours.accent}
 type = internal/network
 
 interface = wlp4s6
-interval  = 3.0
+interval  = 10.0
+
+format-connected    = <ramp-signal>
+format-disconnected = <label-disconnected>
+
+label-disconnected = 睊
+
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 直
+ramp-signal-4 = 直
+ramp-signal-5 = 直
 
 [module/date]
 type = internal/date

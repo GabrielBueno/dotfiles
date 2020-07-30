@@ -8,9 +8,9 @@ cp ~/.zshenv     ./home/.zshenv
 cp ~/.vimrc      ./home/.vimrc
 
 # .config
-cp -r ~/.config/i3      ./config/i3
-cp -r ~/.config/polybar ./config/polybar
-cp -r ~/.config/kitty   ./config/kitty
-cp -r ~/.config/picom   ./config/picom
-cp -r ~/.config/zathura ./config/zathura
-cp -r ~/.config/rofi    ./config/rofi
+cp -r ~/.config/i3      ./config
+cp -r ~/.config/polybar ./config
+cp -r ~/.config/kitty   ./config
+cp -r ~/.config/picom   ./config
+cp -r ~/.config/zathura ./config
+cp -r ~/.config/rofi    ./config
