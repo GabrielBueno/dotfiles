@@ -6,7 +6,8 @@
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
-PS1='[\u@\h \W]\$ '
+#PS1='[\u@\h \W]\$ '
+PS1='\\$\W ~> '
 
 # Variáveis de ambiente do dotnet core
 export ASPNETCORE_URLS=http://localhost:5000
@@ -32,3 +33,4 @@ fi
 
 # COWSAY
 # fortune | cowsay
+
