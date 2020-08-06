@@ -49,4 +49,16 @@ URxvt.internalBorder:  10
 URxvt.cursorBlink:     true
 URxvt.cursorUnderline: false
 URxvt.urgentOnBell:    true
+URxvt.scrollBar:       false
 URxvt.depth:           32
+
+URxvt.keysym.Control-Meta-c: builtin-string:
+URxvt.keysym.Control-Meta-v: builtin-string:
+
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+
+URxvt.perl-ext-common: default
+
+URxvt.iso14755:    false
+URxvt.iso14755_52: false
