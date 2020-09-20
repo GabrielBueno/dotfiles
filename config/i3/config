@@ -32,7 +32,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id setxkbmap "br"
 
 # Wallpaper
-exec_always --no-startup-id feh --bg-scale ~/Imagens/wallpapers/moon_branches_sky_169506_2560x1440.jpg
+exec_always --no-startup-id feh --bg-fill ~/Imagens/wallpapers/rembrandt_athena.jpg
 
 # Picom
 exec --no-startup-id picom -b
