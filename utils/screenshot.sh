@@ -1,0 +1,1 @@
+scrot 'screenshot_%Y%m%d_%H%M%S.png' -e 'mkdir -p ~/Imagens/screenshots && mv $f ~/Imagens/screenshots && xclip -selection clipboard -t image/png -i ~/Imagens/screenshots/`ls -1 -t ~/Imagens/screenshots | head -1`'
