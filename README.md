@@ -1,10 +1,10 @@
 ## dotfiles
 
-My unix system configuration files.
+Arquivos de configuração para o meu sistema UNIX.
 
 ![System](./screenshots/screenshot.png)
 
-System components currently are:
+Os componentes do sistema, atualmente, são:
  
  - bash
  - X
@@ -14,7 +14,7 @@ System components currently are:
  - urxvt
  - picom
 
-Other programs configured in this repository:
+Outros programas são configurados neste repositório:
 
  - zsh
  - vim
