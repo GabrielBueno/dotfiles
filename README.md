@@ -9,7 +9,7 @@ Os componentes do sistema, atualmente, são:
  - bash
  - X
  - i3wm
- - i3bar (with i3status)
+ - i3bar (com i3status)
  - dmenu
  - urxvt
  - picom
