@@ -7,6 +7,10 @@ general {
     color_bad      = "#5c0706"
 }
 
+order += "disk /"
+order += "memory"
+order += "cpu_temperature 0"
+order += "ethernet enp2s0"
 order += "wireless wlan0"
 order += "volume master"
 order += "tztime local"
@@ -16,14 +20,33 @@ wireless wlan0 {
     format_down = "睊"
 }
 
+ethernet enp2s0 {
+    format_up   = "   %speed"
+    format_down = " "
+}
+
 tztime local {
-    format = "%a, %d de %b. %Hh%M  "
+    format = "  %a, %d de %b. %Hh%M  "
 }
 
 volume master {
     format = "墳 %volume"
-    format_muted = "ﱝ"
+    format_muted = " ﱝ"
     device = "default"
     mixer = "Master"
     mixer_idx = 0
+}
+
+cpu_temperature 0 {
+    format = "🌞 %degrees°C"
+    path = "/sys/class/hwmon/hwmon1/temp1_input"
+}
+
+memory {
+    format = " %used"
+    threshold_degraded = "10%"
+}
+
+disk "/" {
+   format = " %used"
 }
