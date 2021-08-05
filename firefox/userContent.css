@@ -1,0 +1,9 @@
+@-moz-document url-prefix(about:newtab), url-prefix(about:blank), url-prefix(about:home) {
+    body {
+        background-color: #000 !important;
+    }
+}
+
+.browserContainer {
+    background-color: #000 !important;
+}
