@@ -1,0 +1,36 @@
+shell:
+  program: /bin/bash
+
+window:
+  padding:
+    x: 20
+    y: 20
+    
+font:
+  normal:
+    family: Cozette
+    style: Medium
+  size: 12.0
+  
+colors:
+  primary:
+    background: '#0c0c0f'
+    foreground: '#d7c9aa'
+  normal:
+    black:   '#343434'
+    red:     '#5c0706'
+    green:   '#6ba304'
+    yellow:  '#f3bc65'
+    blue:    '#82c1c2'
+    magenta: '#027173'
+    cyan:    '#2a9596'
+    white:   '#e6f2f2'
+  bright:
+    black:   '#0c0c0f'
+    red:     '#3f0504'
+    green:   '#5b9200'
+    yellow:  '#c29651'
+    blue:    '#4a9697'
+    magenta: '#014e50'
+    cyan:    '#1d6768'
+    white:   '#86c1c1'
